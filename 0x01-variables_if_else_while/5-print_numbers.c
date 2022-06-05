@@ -5,12 +5,13 @@
 *
 * Return: Always 0 (Success)
 */
+int main(void)
+{
+	int digit;
 
-int main(void) {
-int i;
-    for (i=0; i<10; i++){
-    printf("%i", i);
-	}
+	for (digit = 0; digit < 10; digit++)
+	printf("%i", digit);
+	putchar('\n');
 
-    return 0;
+	return (0);
 }
