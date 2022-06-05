@@ -19,11 +19,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	
 	if (n < 0)
-		printf("%dis negative\n",n);
+		printf("%dis negative\n", n);
 	else if (n == 0)
-		printf("%dis zero\n",n);
+		printf("%dis zero\n", n);
 	else 
-		printf("%dis positive\n",n);
+		printf("%dis positive\n", n);
 
 	return (0);
 }
