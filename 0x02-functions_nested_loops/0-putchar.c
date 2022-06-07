@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <_putchar.h>
 /**
 * main - prints _putchar followed by the new line
 *
@@ -8,6 +8,7 @@
 
 int main()
 {
-	printf("_putchar);
+	printf("_putchar");
+	print("/n");
 	return 0;
 }
