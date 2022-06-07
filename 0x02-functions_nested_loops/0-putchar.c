@@ -1,12 +1,12 @@
-#include <"_putchar">
-#include <stdio.h>
+#include<"_putchar">
+#include<stdio.h>
 /**
  * main - Prints Holberton
  *
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int main()
 {
 	_putchar('_');
 	_putchar('p');
