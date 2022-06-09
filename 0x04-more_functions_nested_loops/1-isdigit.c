@@ -4,7 +4,6 @@ int _isdigit(int c)
 	{
 		return (1);
 	}
-
 	return (0);
 	return (c >= 48 && c <= 57);
 }
