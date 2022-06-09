@@ -1,9 +1,17 @@
-int _isdigit(int c)
+#include "main.h"
+
+/**
+ * _isupper - define if a character is uppercase
+ *
+ * Description: Prints the alphabet with _putchar
+ * @c: charater
+ * Return: void
+ */
+
+int _isupper(int c)
 {
-	for (c = 48; c <= 59; c++)
-	{
+	if (c >= 'A' && c <= 'Z')
 		return (1);
-	}
-	return (0);
-	return (c >= 48 && c <= 57);
+	else
+		return (0);
 }
