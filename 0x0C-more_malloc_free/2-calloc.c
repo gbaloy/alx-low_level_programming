@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- *_calloc - memory -> array;
+ *_calloc - memory array
  *@nmemb:number of elements
  *@size:size 
  *Return:pointer
